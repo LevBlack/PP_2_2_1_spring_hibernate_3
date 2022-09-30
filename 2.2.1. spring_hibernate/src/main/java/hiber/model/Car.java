@@ -61,7 +61,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Машина " +
+        return "\nМашина " +
                 "\n id = " + id +
                 "\n series = " + series +
                 "\n model = " + model;

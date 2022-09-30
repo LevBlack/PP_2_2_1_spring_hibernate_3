@@ -81,4 +81,13 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public String toString() {
+        return  "\nid = " + id +
+                "\nfirstName = " + firstName +
+                "\nlastName = " + lastName +
+                "\nemail = " + email +
+                "\n" + car;
+    }
 }
